@@ -7,7 +7,7 @@ OPS Sender é uma aplicação desktop para envio automatizado de mensagens via W
 ## Estrutura do Projeto
 
 ```
-modular_app/
+OPSender/
 ├── utils/                  # Pacote de utilitários
 │   ├── __init__.py         # Arquivo de inicialização do pacote
 │   ├── phone_formatter.py  # Formatação de números de telefone
