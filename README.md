@@ -172,48 +172,4 @@ Telefone | Mensagem
 11988888888 | Bom dia! Como vai?
 ```
 
-## Otimizações e Boas Práticas
 
-### Performance
-
-- **Cache**: Implementado para operações repetitivas
-- **Processamento em Lotes**: Contatos processados em grupos para melhor eficiência
-- **Gerenciamento de Recursos**: Otimização do carregamento de páginas no navegador
-- **Buffer Limitado**: Para logs, evitando consumo excessivo de memória
-
-### Legibilidade
-
-- **Documentação**: Docstrings detalhadas em todas as classes e métodos
-- **Nomes Descritivos**: Variáveis e funções com nomes que revelam sua finalidade
-- **Comentários**: Explicações em seções complexas do código
-
-### Manutenção
-
-- **Modularização**: Separação clara de responsabilidades
-- **DRY (Don't Repeat Yourself)**: Eliminação de código duplicado
-- **Encapsulamento**: Métodos privados para operações internas
-
-## Recomendações para Desenvolvimento Futuro
-
-1. **Testes Automatizados**:
-   - Implementar testes unitários com pytest
-   - Criar testes de integração para fluxos completos
-
-2. **Ferramentas de Qualidade**:
-   - Utilizar black para formatação automática
-   - Implementar flake8 para análise estática
-   - Configurar mypy para verificação de tipos
-
-3. **Melhorias Potenciais**:
-   - Suporte a múltiplas planilhas
-   - Agendamento de envios
-   - Relatórios detalhados exportáveis
-   - Suporte a outros mensageiros além do WhatsApp
-
-## Licença
-
-Este projeto é distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-## Contato
-
-Para suporte ou sugestões, entre em contato através de [seu-email@exemplo.com].
