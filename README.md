@@ -1,4 +1,4 @@
-# OPS Sender - Documentação Completa
+# OPS Sender - Enviador de mensagens WhatsApp por Excel
 
 ## Visão Geral
 
