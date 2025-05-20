@@ -125,7 +125,7 @@ class WhatsAppSender:
             normalized_phone = PhoneNumberFormatter.normalize(phone)
 
             # Codifica a mensagem para URL
-            encoded_message = quote(message.replace('\n', '%0A'))
+            encoded_message = quote(message)
 
             # Constrói a URL do WhatsApp
             url = f"https://web.whatsapp.com/send/?phone={normalized_phone}&text={encoded_message}&type=phone_number&app_absent=0"
