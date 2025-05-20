@@ -231,7 +231,6 @@ class WhatsAppSender:
                         self.failed_messages.append((phone, message))
 
                     # Pausa entre mensagens para evitar bloqueio
-                    if current_index < self.total_messages - 1:  # Não espera após a última mensagem
                         self.logger.log(f"⏳ Aguardando antes da próxima mensagem...")
                         await asyncio.sleep(self.wait_time)  # Mais eficiente que wait_for_timeout
                 
